@@ -1,0 +1,19 @@
+{
+	"experience":
+	[
+		{
+			"date": "December 2016",
+			"type": "Observation Internship",
+			"title": "L'Agent X",
+			"description": "A 1 Week Internship, where I've meet nice peoples and where I've learned a lot about the world of advertisments and marketing. Also, I've upgrade my designs skills and I've used Adobe Photoshop and Illustrator to make some designs.",
+			"tags":
+			[
+				{ "name": "Photoshop", "url": "https://fr.wikipedia.org/wiki/Adobe_Photoshop" },
+				{ "name": "Illustrator", "url": "https://fr.wikipedia.org/wiki/Adobe_Illustrator" }
+			],
+			"link": "https://lagentx.com/fr",
+			"video": "none",
+			"image": "resources/images/experiences/AgentX.png"
+		}
+	]
+}

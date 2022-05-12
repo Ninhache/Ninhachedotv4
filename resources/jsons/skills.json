@@ -1,0 +1,150 @@
+{
+	"skills_categories":
+	[
+		{
+			"name" : "Software Development",
+			"skills" :
+			[
+				{
+					"name": "C",
+					"logo": "resources/svg/skills/C.svg",
+					"link": "https://en.wikipedia.org/wiki/C_(programming_language)"
+				},
+				{
+					"name": "C++",
+					"logo": "resources/svg/skills/Cpp.svg",
+					"link": "https://en.wikipedia.org/wiki/C%2B%2B"
+				},
+				{
+					"name": "Java",
+					"logo": "resources/svg/skills/Java.svg",
+					"link": "https://en.wikipedia.org/wiki/Java_(programming_language)"
+				},
+				{
+					"name": "C#",
+					"logo": "resources/svg/skills/C_sharp.svg",
+					"link": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
+				},
+				{
+					"name": "Python",
+					"logo": "resources/svg/skills/Python.svg",
+					"link": "https://www.python.org/"
+				},
+				{
+					"name": "Git",
+					"logo": "resources/svg/skills/Git.svg",
+					"link": "https://git-scm.com/"
+				},
+				{
+					"name": "Unix",
+					"logo": "resources/svg/skills/Unix.svg",
+					"link": "https://en.wikipedia.org/wiki/Unix"
+				}
+			]
+		},
+		{
+			"name" : "Computer Graphics",
+			"skills" :
+			[
+				{
+					"name": "OpenGL",
+					"logo": "resources/svg/skills/OpenGL.svg",
+					"link": "https://www.opengl.org//"
+				},
+				{
+					"name": "Unity",
+					"logo": "resources/svg/skills/Unity.svg",
+					"link": "https://unity.com/"
+				},
+				{
+					"name": "JavaFX",
+					"logo": "resources/svg/skills/JavaFX.svg",
+					"link": "https://openjfx.io"
+				},
+				{
+					"name": "SFML",
+					"logo": "resources/svg/skills/Sfml.svg",
+					"link": "https://www.sfml-dev.org/index.php"
+				}
+			]
+		},
+		{
+			"name" : "Front-end Web",
+			"skills" :
+			[
+				{
+					"name": "HTML",
+					"logo": "resources/svg/skills/Html.svg",
+					"link": "https://en.wikipedia.org/wiki/HTML"
+				},
+				{
+					"name": "CSS",
+					"logo": "resources/svg/skills/Css.svg",
+					"link": "https://en.wikipedia.org/wiki/CSS"
+				},
+				{
+					"name": "JavaScript",
+					"logo": "resources/svg/skills/JavaScript.svg",
+					"link": "https://en.wikipedia.org/wiki/JavaScript"
+				},
+				{
+					"name": "Git",
+					"logo": "resources/svg/skills/Git.svg",
+					"link": "https://git-scm.com/"
+				}
+			]
+		},
+		{
+			"name" : "Back-end Web",
+			"skills" :
+			[
+				{
+					"name": "JavaScript",
+					"logo": "resources/svg/skills/JavaScript.svg",
+					"link": "https://en.wikipedia.org/wiki/JavaScript"
+				},
+				{
+					"name": "TypeScript",
+					"logo": "resources/svg/skills/TypeScript.svg",
+					"link": "https://www.typescriptlang.org"
+				},
+				{
+					"name": "NodeJS",
+					"logo": "resources/svg/skills/NodeJS.svg",
+					"link": "https://nodejs.org/en/"
+				},
+				{
+					"name": "SQL",
+					"logo": "resources/svg/skills/Sql.svg",
+					"link": "https://sql.sh"
+				},
+				{
+					"name": "Git",
+					"logo": "resources/svg/skills/Git.svg",
+					"link": "https://git-scm.com/"
+				}
+			]
+		},
+		{
+			"name" : "Design",
+			"skills" :
+			[
+				{
+					"name": "After Effects",
+					"logo": "resources/svg/skills/After_effects.svg",
+					"link": "https://www.adobe.com/products/aftereffects.html"
+				},
+				{
+					"name": "Illustrator",
+					"logo": "resources/svg/skills/Illustrator.svg",
+					"link": "https://www.adobe.com/products/illustrator.html"
+				},
+				{
+					"name": "Photoshop",
+					"logo": "resources/svg/skills/Photoshop.svg",
+					"link": "https://www.adobe.com/products/photoshop.html"
+				}
+			]
+		}
+	]
+}

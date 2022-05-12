@@ -1,0 +1,153 @@
+{
+	"projects":
+	[
+		{
+			"date": "March 2021",
+			"type": "School Project",
+			"title": "Sokoban",
+			"description": "A game of Sokoban, a puzzle game where you need to push boxes to the goal.",
+			"tags":
+			[
+				{ "name": "C", "url": "https://fr.wikipedia.org/wiki/C_(langage)" },
+				{ "name": "Ncurses", "url": "https://fr.wikipedia.org/wiki/Ncurses" }
+			],
+			"links":
+			[
+				"https://github.com/Ninhache/Sokoban",
+				"https://github.com/Ninhache/Sokoban",
+				"https://onlinegdb.com/ay4ieWjm7"
+			],
+			"video": "none",
+			"image": "resources/images/projects/sokobangif1.gif",
+			"logo": "resources/svg/projects/Box.svg",
+			"categories": ["School"]
+		}, 
+		{
+			"date": "October 2021",
+			"type": "Personal Project",
+			"title": "Ch-hess",
+			"description": "A game of chess (who needs a rework), a board game where you need to push pieces to the goal.",
+			"tags":
+			[
+				{ "name": "Java", "url": "https://fr.wikipedia.org/wiki/Java_(langage)" }
+			],
+			"links":
+			[
+				"https://github.com/Ninhache/Ch-Hess",
+				"https://github.com/Ninhache/Ch-Hess",
+				"none"
+			],
+			"video": "none",
+			"image": "resources/images/projects/Chess.png",
+			"logo": "resources/svg/projects/Chess.svg",
+			"categories": ["Personal"]
+		},
+		{
+			"date": "April 2021",
+			"type": "School Project",
+			"title": "ColorFx", 
+			"description": "A tool to help you to choose the best color for printing.",
+			"tags":
+			[
+				{ "name": "Java", "url": "https://www.java.com/en/" },
+				{ "name": "JavaFX", "url": "https://openjfx.io/" }
+			],
+			"links":
+			[
+				"https://github.com/Ninhache/ColorFx",
+				"https://github.com/Ninhache/ColorFx",
+				"none"
+			],
+			"video": "none",
+			"image": "resources/images/projects/ColorFx.png",
+			"logo": "resources/svg/projects/Colorfx.svg",
+			"categories": ["School"]
+		},
+		{
+			"date": "December 2021",
+			"type": "School Project",
+			"title": "3D Modelisation Tool (Only for .ply)", 
+			"description": "A 3d modelisation tool, where you can open .ply files and visualize them.",
+			"tags":
+			[
+				{ "name": "Java", "url": "https://www.java.com/en/" },
+				{ "name": "JavaFX", "url": "https://openjfx.io/" }
+			],
+			"links":
+			[
+				"https://github.com/Ninhache/Projet-Mod-lisation-S3",
+				"https://github.com/Ninhache/Projet-Mod-lisation-S3",
+				"none"
+			],
+			"video": "none",
+			"image": "resources/images/projects/Modelisation.gif",
+			"logo": "resources/svg/projects/Modelisation.svg",
+			"categories": ["School"]
+		},
+		{
+			"date": "February 2022",
+			"type": "Personal Project",
+			"title": "Windows's Notepad copy", 
+			"description": "A copy of the Windows's Notepad, with some features. This project allowed me to discover C# and .NET.",
+			"tags":
+			[
+				{ "name": "C#", "url": "https://docs.microsoft.com/en-us/dotnet/csharp/" },
+				{ "name": ".NET", "url": "https://docs.microsoft.com/en-us/dotnet/" }
+			],
+			"links":
+			[
+				"https://github.com/Ninhache/Notepad-Copy",
+				"https://github.com/Ninhache/Notepad-Copy",
+				"none"
+			],
+			"video": "none",
+			"image": "resources/images/projects/Notepad.gif",
+			"logo": "resources/svg/projects/Notepad.svg",
+			"categories": ["Personal"]
+		},
+		{
+			"date": "April 2022",
+			"type": "School Project",
+			"title": "JustSeries", 
+			"description": "A website where you can search for series and see their information.",
+			"tags":
+			[
+				{ "name": "JS", "url": "https://developer.mozilla.org/fr/docs/Web/JavaScript" },
+				{ "name": "TvMazeAPI", "url": "https://www.tvmaze.com/" }
+			],
+			"links":
+			[
+				"https://github.com/Ninhache/JustSeries",
+				"https://github.com/Ninhache/JustSeries",
+				"NEED HOST"
+			],
+			"video": "none",
+			"image": "resources/images/projects/JustSeries.gif",
+			"logo": "resources/svg/projects/ShowsWebsite.svg",
+			"categories": ["School", "Web"]
+		},
+		{
+			"date": "April 2022",
+			"type": "Practical work",
+			"title": "Image Processing", 
+			"description": "Python's project to learn image processing.",
+			"tags":
+			[
+				{ "name": "Python", "url": "https://www.python.org/" },
+				{ "name": "OpenCV", "url": "https://docs.opencv.org/4.x/" },
+				{ "name": "Numpy", "url": "https://numpy.org/" },
+				{ "name": "Matplotlib", "url": "https://matplotlib.org/" }
+			],
+			"links":
+			[
+				"https://github.com/Ninhache/Image-Processing",
+				"https://github.com/Ninhache/Image-Processing",
+				"none"
+			],
+			"video": "resources/videos/projects/PythonImageProcessing.mp4",
+			"image": "resources/images/projects/ImageProcessing.png",
+			"logo": "resources/svg/projects/ShowsWebsite.svg",
+			"categories": ["School"]
+		}
+	]
+}
