@@ -64,7 +64,7 @@
 
 #about_section .about_content .p_1 .download_resume
 {
-	
+	display: inline-block;
 	color: var(--light_blue);
 	font-family: raleway_semi_bold;
 	font-size: 15px;
