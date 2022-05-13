@@ -19,7 +19,7 @@
 			],
 			"video": "none",
 			"image": "resources/images/projects/sokobangif1.gif",
-			"logo": "resources/svg/projects/Box.svg",
+			"logo": "resources/svg/projects/Sokoban.svg",
 			"categories": ["School"]
 		}, 
 		{
@@ -39,7 +39,7 @@
 			],
 			"video": "none",
 			"image": "resources/images/projects/Chess.png",
-			"logo": "resources/svg/projects/Chess.svg",
+			"logo": "resources/svg/projects/Ch-hess.svg",
 			"categories": ["Personal"]
 		},
 		{
@@ -60,7 +60,7 @@
 			],
 			"video": "none",
 			"image": "resources/images/projects/ColorFx.png",
-			"logo": "resources/svg/projects/Colorfx.svg",
+			"logo": "resources/svg/projects/ColorFxDropper.svg",
 			"categories": ["School"]
 		},
 		{
@@ -81,7 +81,7 @@
 			],
 			"video": "none",
 			"image": "resources/images/projects/Modelisation.gif",
-			"logo": "resources/svg/projects/Modelisation.svg",
+			"logo": "resources/svg/projects/ProjetMode.svg",
 			"categories": ["School"]
 		},
 		{
@@ -102,7 +102,7 @@
 			],
 			"video": "none",
 			"image": "resources/images/projects/Notepad.gif",
-			"logo": "resources/svg/projects/Notepad.svg",
+			"logo": "resources/svg/projects/NotepadCopy.svg",
 			"categories": ["Personal"]
 		},
 		{
@@ -123,7 +123,7 @@
 			],
 			"video": "none",
 			"image": "resources/images/projects/JustSeries.gif",
-			"logo": "resources/svg/projects/ShowsWebsite.svg",
+			"logo": "resources/svg/projects/JustSeries.svg",
 			"categories": ["School", "Web"]
 		},
 		{
@@ -146,7 +146,7 @@
 			],
 			"video": "resources/videos/projects/PythonImageProcessing.mp4",
 			"image": "resources/images/projects/ImageProcessing.png",
-			"logo": "resources/svg/projects/Python.svg",
+			"logo": "resources/svg/projects/ImageProcessing.svg",
 			"categories": ["School"]
 		}
 	]
