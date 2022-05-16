@@ -23,24 +23,24 @@
 			"categories": ["School"]
 		}, 
 		{
-			"date": "October 2021",
+			"date": "May 2022",
 			"type": "Personal Project",
-			"title": "Ch-hess",
-			"description": "A game of chess (who needs a rework), a board game where you need to push pieces to the goal.",
+			"title": "Maze Things", 
+			"description": "Atm, it's \"only\" a maze generator. I want to add more features like a solvers.",
 			"tags":
 			[
-				{ "name": "Java", "url": "https://fr.wikipedia.org/wiki/Java_(langage)" }
+				{ "name": "JS", "url": "https://developer.mozilla.org/fr/docs/Web/JavaScript" }
 			],
 			"links":
 			[
-				"https://github.com/Ninhache/Ch-Hess",
-				"https://github.com/Ninhache/Ch-Hess",
-				"none"
+				"https://ninhache.fr/MazeThings/",
+				"https://github.com/Ninhache/MazeThings",
+				"https://ninhache.fr/MazeThings/"
 			],
 			"video": "none",
-			"image": "resources/images/projects/Chess.png",
-			"logo": "resources/svg/projects/Ch-hess.svg",
-			"categories": ["Personal"]
+			"image": "resources/images/projects/MazeThings.gif",
+			"logo": "resources/svg/projects/MazeThings.svg",
+			"categories": ["Web", "Personal"]
 		},
 		{
 			"date": "April 2021",
@@ -117,7 +117,7 @@
 			],
 			"links":
 			[
-				"https://github.com/Ninhache/JustSeries",
+				"https://ninhache.fr/JustSeries",
 				"https://github.com/Ninhache/JustSeries",
 				"https://ninhache.fr/JustSeries"
 			],
@@ -148,6 +148,26 @@
 			"image": "resources/images/projects/ImageProcessing.png",
 			"logo": "resources/svg/projects/ImageProcessing.svg",
 			"categories": ["School"]
+		},
+		{
+			"date": "October 2021",
+			"type": "Personal Project",
+			"title": "Ch-hess",
+			"description": "A game of chess (who needs a rework), a board game where you need to push pieces to the goal.",
+			"tags":
+			[
+				{ "name": "Java", "url": "https://fr.wikipedia.org/wiki/Java_(langage)" }
+			],
+			"links":
+			[
+				"https://github.com/Ninhache/Ch-Hess",
+				"https://github.com/Ninhache/Ch-Hess",
+				"none"
+			],
+			"video": "none",
+			"image": "resources/images/projects/Chess.png",
+			"logo": "resources/svg/projects/Ch-hess.svg",
+			"categories": ["Personal"]
 		}
 	]
 }
