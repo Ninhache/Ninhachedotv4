@@ -168,6 +168,46 @@
 			"image": "resources/images/projects/Chess.png",
 			"logo": "resources/svg/projects/Ch-hess.svg",
 			"categories": ["Personal"]
+		},
+		{
+			"date": "April 2022",
+			"type": "School Project",
+			"title": "Client SSH",
+			"description": "An SSH Client, implemented in Java language.",
+			"tags":
+			[
+				{ "name": "Java", "url": "https://fr.wikipedia.org/wiki/Java_(langage)" }
+			],
+			"links":
+			[
+				"https://github.com/Ninhache/Client-SSH-Java",
+				"https://github.com/Ninhache/Client-SSH-Java",
+				"none"
+			],
+			"video": "resources/videos/projects/ClientSSH.mp4",
+			"image": "resources/images/projects/ClientSSH.png",
+			"logo": "resources/svg/projects/ClientSSH.svg",
+			"categories": ["School"]
+		},
+		{
+			"date": "March 2022",
+			"type": "School Project",
+			"title": "Netcast",
+			"description": "A web server implented in C language.",
+			"tags":
+			[
+				{ "name": "C", "url": "https://fr.wikipedia.org/wiki/C_(langage)" }
+			],
+			"links":
+			[
+				"https://github.com/Ninhache/Netcast",
+				"https://github.com/Ninhache/Netcast",
+				"none"
+			],
+			"video": "resources/videos/projects/ServeurWebC.mp4",
+			"image": "resources/images/projects/ServeurWebC.png",
+			"logo": "resources/svg/projects/Netcast.svg",
+			"categories": ["School", "Web"]
 		}
 	]
 }
