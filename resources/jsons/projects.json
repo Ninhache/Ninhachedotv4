@@ -208,6 +208,29 @@
 			"image": "resources/images/projects/ServeurWebC.png",
 			"logo": "resources/svg/projects/Netcast.svg",
 			"categories": ["School", "Web"]
+		},
+		{
+			"date": "June 2022",
+			"type": "Personnal Project",
+			"title": "FractalDisplayer",
+			"description": "A simple fractal displayer, atm, only able to display Mandelbrot fractal. I've made this project to discover shaders and to learn how to use them.",
+			"tags":
+			[
+				{ "name": "CPP", "url": "https://fr.wikipedia.org/wiki/C%2B%2B" },
+				{ "name": "GLSL", "url": "https://fr.wikipedia.org/wiki/GLSL" },
+				{ "name": "SFML", "url": "https://fr.wikipedia.org/wiki/Simple_and_Fast_Multimedia_Library" },
+				{ "name": "ImGui", "url": "https://github.com/ocornut/imgui" }
+			],
+			"links":
+			[
+				"https://github.com/Ninhache/Fractal-Displayer",
+				"https://github.com/Ninhache/Fractal-Displayer",
+				"none"
+			],
+			"video": "none",
+			"image": "resources/images/projects/FractalDisplayer.png",
+			"logo": "resources/svg/projects/FractalDisplayer.svg",
+			"categories": ["Personnal", "Simulation"]
 		}
 	]
 }

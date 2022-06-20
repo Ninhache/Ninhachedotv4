@@ -39,6 +39,11 @@
 					"name": "Unix",
 					"logo": "resources/svg/skills/Unix.svg",
 					"link": "https://en.wikipedia.org/wiki/Unix"
+				},
+				{
+					"name": "CMake",
+					"logo": "resources/svg/skills/CMake.svg",
+					"link": "https://cmake.org/"
 				}
 			]
 		},
@@ -65,6 +70,16 @@
 					"name": "SFML",
 					"logo": "resources/svg/skills/Sfml.svg",
 					"link": "https://www.sfml-dev.org/index.php"
+				},
+				{
+					"name": "GLSL",
+					"logo": "resources/images/skills/GLSL.png",
+					"link": "https://www.opengl.org/wiki/GLSL"
+				},
+				{
+					"name": "ImGui",
+					"logo": "resources/svg/skills/ImGui.svg",
+					"link": "https://github.com/ocornut/imgui"
 				}
 			]
 		},
@@ -91,6 +106,16 @@
 					"name": "Git",
 					"logo": "resources/svg/skills/Git.svg",
 					"link": "https://git-scm.com/"
+				},
+				{
+					"name": "ReactJS",
+					"logo": "resources/svg/skills/ReactJS.svg",
+					"link": "https://reactjs.org/"
+				},
+				{
+					"name": "React Native",
+					"logo": "resources/svg/skills/ReactJS.svg",
+					"link": "https://reactnative.dev/"
 				}
 			]
 		},
