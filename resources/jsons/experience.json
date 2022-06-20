@@ -14,6 +14,23 @@
 			"link": "https://lagentx.com/fr",
 			"video": "none",
 			"image": "resources/images/experiences/AgentX.png"
+		},
+		{
+			"date": "June 2022",
+			"type": "Practice Internship",
+			"title": "BetterCallDave",
+			"description": "A 3 Months Internship, where I'm working with ReactJS framework and some other things, I discover the business world !",
+			"tags":
+			[
+				{ "name": "ReactJS", "url": "https://fr.wikipedia.org/wiki/React" },
+				{ "name": "React Native", "url": "https://fr.wikipedia.org/wiki/React_Native" },
+				{ "name": "NodeJS", "url": "https://fr.wikipedia.org/wiki/Node.js" },
+				{ "name": "Javascript", "url": "https://fr.wikipedia.org/wiki/JavaScript" },
+				{ "name": "SQL", "url": "https://fr.wikipedia.org/wiki/SQL" }
+			],
+			"link": "https://www.bettercalldave.io/",
+			"video": "none",
+			"image": "resources/images/experiences/BetterCallDave.png"
 		}
 	]
 }
