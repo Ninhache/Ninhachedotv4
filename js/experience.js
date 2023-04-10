@@ -110,8 +110,9 @@ function experience_events()
 		done = [];
 		elements = document.querySelectorAll('#experience_section .in_animation');
 
-		for (let _ of elements)
+		for (let _ of elements) {
 			done.push(false);
+		}
 
 		in_animation_check();
 	}
