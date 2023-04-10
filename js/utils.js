@@ -37,29 +37,3 @@ function read_json(url, callback)
 
 	xhr.send();
 }
-
-// Github Copilot solution : 
-// write a global function to read json and return a callback
-/*
-function read_json(url, callback)
-{
-	var xhr = new XMLHttpRequest();
-	xhr.open('GET', url, true);
-	xhr.responseType = 'json';
-	xhr.onload = function()
-	{
-		if (xhr.status === 200)
-		{
-			callback(xhr.response);
-		}
-		else
-		{
-			console.error('read_json: ' + url + ': ' + xhr.statusText);
-		}
-	};
-	xhr.onerror = function()
-	{
-		console.error('read_json: ' + url + ': ' + xhr.statusText);
-	};
-	xhr.send();
-}*/
