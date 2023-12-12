@@ -45,22 +45,31 @@ function projects_events()
 		}
 	}
 
-	function add_project(project, inverted, featured)
-	{
+	const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+	function getDateString(date) {
+		const pArr = date.split(" ");
+		const pDate = new Date(pArr[1], pArr[0]);
+		return monthNames[pDate.getMonth()] + " " + pDate.getFullYear();
+	}
+
+	function add_project(project, inverted, featured) {
 		let tags = '';
 
-		if (featured)
-		{
-			for (let tag of project.tags)
-				tags += `<a href="${tag.url}" target="_blank">${tag.name}</a>`;
+		if (featured) {
+			
+			const sDate = getDateString(project.date)
 
-			if (window.innerWidth > 780)
-			{
+			for (let tag of project.tags) {
+				tags += `<a href="${tag.url}" target="_blank">${tag.name}</a>`;
+			}
+
+			if (window.innerWidth > 780) {
 				document.querySelector('#projects_section .projects_content').innerHTML += `
 					<div class="in_animation project ${inverted ? 'inverted' : ''}">
 						<div class="project_text">
 							<div class="type">
-								<span>${project.date}</span>
+								<span>${sDate}</span>
 								<span>•</span>
 								<span>${project.type}</span>
 							</div>
@@ -96,13 +105,14 @@ function projects_events()
 
 			else
 			{
+
 				document.querySelector('#projects_section .projects_content').innerHTML += `
 					<div class="in_animation project" style="background-image: url(${project.image});">
 						<div class="project_text"">
 							<div class="type">
 								<span>${project.type}</span>
 								<span>•</span>
-								<span>${project.date}</span>
+								<span>${sDate}</span>
 							</div>
 							<a class="project_title" href="${project.links[0]}" target="_blank">${project.title}</a>
 							<div class="text"><p>${project.description}</p></div>
@@ -156,6 +166,7 @@ function projects_events()
 		}
 	}
 
+
 	function generate(data)
 	{
 		document.querySelector('#projects_section .projects_content').innerHTML = '';
@@ -163,19 +174,41 @@ function projects_events()
 		let inverted = true;
 		let i = 0;
 
-		if (sort_by == 'Date')
-		{
-			data.projects.sort((a, b) =>
-			{
-				return b.date - a.date;
+		if (sort_by == 'Date') {
+			data.projects.sort((a, b) => {
+				
+				const aArr = a.date.split(" ");
+				const bArr = b.date.split(" ");
+
+				const aDate = new Date(aArr[1], aArr[0]);
+				const bDate = new Date(bArr[1], bArr[0]);
+
+				return bDate - aDate;
 			});
 		}
 
-		for (let project of data.projects)
-		{
+		function shuffle(array) {
+			let currentIndex = array.length,  randomIndex;
+		  
+			while (currentIndex != 0) {
+		  
+			  randomIndex = Math.floor(Math.random() * currentIndex);
+			  currentIndex--;
+		  
+			  [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+			}
+		  
+			return array;
+		  }
+
+		if (sort_by === 'Random') {
+			shuffle(data.projects);
+		}
+
+		for (let project of data.projects) {
 			let featured;
 
-			if (sort_by == 'Default' || sort_by == 'Date')
+			if (sort_by === 'Default' || sort_by === 'Date' || sort_by === 'Random')
 				featured = i < 7;
 			else
 				featured = project.categories.includes(sort_by);
@@ -231,3 +264,4 @@ function projects_events()
 		});
 	});
 }
+
