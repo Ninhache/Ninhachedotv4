@@ -2,9 +2,24 @@
 	"skills_categories":
 	[
 		{
-			"name" : "Software Development",
+			"name" : "Raw Programming Language",
 			"skills" :
 			[
+				{
+					"name": "Java",
+					"logo": "resources/svg/skills/Java.svg",
+					"link": "https://en.wikipedia.org/wiki/Java_(programming_language)"
+				},
+				{
+					"name": "JavaScript",
+					"logo": "resources/svg/skills/JavaScript.svg",
+					"link": "https://en.wikipedia.org/wiki/JavaScript"
+				},
+				{
+					"name": "Rust",
+					"logo": "resources/svg/skills/Rust.svg",
+					"link": "https://www.rust-lang.org/"
+				},
 				{
 					"name": "C",
 					"logo": "resources/svg/skills/C.svg",
@@ -15,133 +30,59 @@
 					"logo": "resources/svg/skills/Cpp.svg",
 					"link": "https://en.wikipedia.org/wiki/C%2B%2B"
 				},
-				{
-					"name": "Java",
-					"logo": "resources/svg/skills/Java.svg",
-					"link": "https://en.wikipedia.org/wiki/Java_(programming_language)"
-				},
-				{
-					"name": "C#",
-					"logo": "resources/svg/skills/C_sharp.svg",
-					"link": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
-				},
+				
 				{
 					"name": "Python",
 					"logo": "resources/svg/skills/Python.svg",
 					"link": "https://www.python.org/"
-				},
-				{
-					"name": "Rust",
-					"logo": "resources/svg/skills/Rust.svg",
-					"link": "https://www.rust-lang.org/"
-				},
-				{
-					"name": "Git",
-					"logo": "resources/svg/skills/Git.svg",
-					"link": "https://git-scm.com/"
-				},
-				{
-					"name": "Unix",
-					"logo": "resources/svg/skills/Unix.svg",
-					"link": "https://en.wikipedia.org/wiki/Unix"
-				},
-				{
-					"name": "CMake",
-					"logo": "resources/svg/skills/CMake.svg",
-					"link": "https://cmake.org/"
 				}
 			]
 		},
+		
 		{
-			"name" : "Computer Graphics",
+			"name" : "Front-end",
 			"skills" :
 			[
 				{
-					"name": "OpenGL",
-					"logo": "resources/svg/skills/OpenGL.svg",
-					"link": "https://www.opengl.org//"
-				},
-				{
-					"name": "Vulkan",
-					"logo": "resources/svg/skills/Vulkan.svg",
-					"link": "https://www.vulkan.org/"
-				},
-				{
-					"name": "Unity",
-					"logo": "resources/svg/skills/Unity.svg",
-					"link": "https://unity.com/"
-				},
-				{
-					"name": "JavaFX",
-					"logo": "resources/svg/skills/JavaFX.svg",
-					"link": "https://openjfx.io"
-				},
-				{
-					"name": "SFML",
-					"logo": "resources/svg/skills/Sfml.svg",
-					"link": "https://www.sfml-dev.org/index.php"
-				},
-				{
-					"name": "GLSL",
-					"logo": "resources/images/skills/Glsl.png",
-					"link": "https://www.opengl.org/wiki/GLSL"
-				},
-				{
-					"name": "ImGui",
-					"logo": "resources/svg/skills/ImGui.svg",
-					"link": "https://github.com/ocornut/imgui"
-				}
-			]
-		},
-		{
-			"name" : "Front-end Web",
-			"skills" :
-			[
-				{
-					"name": "HTML",
-					"logo": "resources/svg/skills/Html.svg",
-					"link": "https://en.wikipedia.org/wiki/HTML"
-				},
-				{
-					"name": "CSS",
+					"name": "Vanilla CSS.",
 					"logo": "resources/svg/skills/Css.svg",
 					"link": "https://en.wikipedia.org/wiki/CSS"
 				},
 				{
-					"name": "JavaScript",
+					"name": "Vanilla JS",
 					"logo": "resources/svg/skills/JavaScript.svg",
 					"link": "https://en.wikipedia.org/wiki/JavaScript"
 				},
 				{
-					"name": "Git",
-					"logo": "resources/svg/skills/Git.svg",
-					"link": "https://git-scm.com/"
-				},
-				{
-					"name": "ReactJS",
-					"logo": "resources/svg/skills/ReactJS.svg",
-					"link": "https://reactjs.org/"
+					"name": "React",
+					"logo": "resources/svg/skills/React.svg",
+					"link": "https://react.dev/"
 				},
 				{
 					"name": "React Native",
-					"logo": "resources/svg/skills/ReactJS.svg",
+					"logo": "resources/svg/skills/React.svg",
 					"link": "https://reactnative.dev/"
+				},
+				{
+					"name": "NextJS",
+					"logo": "resources/svg/skills/NextJS.svg",
+					"link": "https://nextjs.org/"
+				},
+				{
+					"name": "Angular",
+					"logo": "resources/svg/skills/Angular.svg",
+					"link": "https://angular.io/"
 				}
 			]
 		},
 		{
-			"name" : "Back-end Web",
+			"name" : "Back-end",
 			"skills" :
 			[
 				{
-					"name": "JavaScript",
-					"logo": "resources/svg/skills/JavaScript.svg",
-					"link": "https://en.wikipedia.org/wiki/JavaScript"
-				},
-				{
-					"name": "TypeScript",
-					"logo": "resources/svg/skills/TypeScript.svg",
-					"link": "https://www.typescriptlang.org"
+					"name": "Quarkus",
+					"logo": "resources/svg/skills/Quarkus.svg",
+					"link": "https://quarkus.io/"
 				},
 				{
 					"name": "NodeJS",
@@ -149,19 +90,35 @@
 					"link": "https://nodejs.org/en/"
 				},
 				{
-					"name": "SQL",
-					"logo": "resources/svg/skills/Sql.svg",
-					"link": "https://sql.sh"
-				},
-				{
-					"name": "Python",
-					"logo": "resources/svg/skills/Python.svg",
-					"link": "https://www.python.org/"
-				},
+					"name": "ExpressJS",
+					"logo": "resources/svg/skills/Expressjs.svg",
+					"link": "https://expressjs.com/fr/"
+				}
+			]
+		},
+		{
+			"name" : "More?",
+			"skills" :
+			[
 				{
 					"name": "Git",
 					"logo": "resources/svg/skills/Git.svg",
 					"link": "https://git-scm.com/"
+				},
+				{
+					"name": "Docker",
+					"logo": "resources/svg/skills/Docker.svg",
+					"link": "https://www.docker.com/"
+				},
+				{
+					"name": "Kubernetes",
+					"logo": "resources/svg/skills/Kubernetes.svg",
+					"link": "https://kubernetes.io/fr/"
+				},
+				{
+					"name": "Unix",
+					"logo": "resources/svg/skills/Unix.svg",
+					"link": "https://fr.wikipedia.org/wiki/Unix"
 				}
 			]
 		},

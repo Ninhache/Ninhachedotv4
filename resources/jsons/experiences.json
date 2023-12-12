@@ -1,0 +1,55 @@
+{
+	"experience":
+	[
+		{
+			"date": "December 2016",
+			"type": "Observation Internship",
+			"title": "L'Agent X",
+			"description": "During a one-week internship, I had the opportunity to interact with friendly and knowledgeable individuals and gain valuable insights into the world of advertising and marketing. Additionally, I improved my design skills and utilized Adobe Photoshop and Illustrator to create various designs.",
+			"tags":
+			[
+				{ "name": "Photoshop", "url": "https://fr.wikipedia.org/wiki/Adobe_Photoshop" },
+				{ "name": "Illustrator", "url": "https://fr.wikipedia.org/wiki/Adobe_Illustrator" }
+			],
+			"link": "https://lagentx.com/fr",
+			"video": "none",
+			"image": "resources/images/experiences/AgentX.webp"
+		},
+		{
+			"date": "June 2022 - August 2022<br>April 2023 - July 2023",
+			"type": "Full Stack Intern",
+			"title": "BetterCallDave",
+			"description": " I had the enriching opportunity to complete two separate three-month internships. These experiences not only diversified my skill set but also provided me with a deeper understanding of the industry and professional working environment.",
+			"tags":
+			[
+				{ "name": "ReactJS", "url": "https://fr.wikipedia.org/wiki/React" },
+				{ "name": "React Native", "url": "https://fr.wikipedia.org/wiki/React_Native" },
+				{ "name": "NodeJS", "url": "https://fr.wikipedia.org/wiki/Node.js" },
+				{ "name": "Javascript", "url": "https://fr.wikipedia.org/wiki/JavaScript" },
+				{ "name": "SQL", "url": "https://fr.wikipedia.org/wiki/SQL" },
+				{ "name": "GraphQL", "url": "https://fr.wikipedia.org/wiki/GraphQL" }
+			],
+			"link": "https://www.bettercalldave.io/",
+			"video": "none",
+			"image": "resources/images/experiences/BetterCallDave.webp"
+		},
+		{
+			"date": "September 2023 - December 2023",
+			"type": "Permanent contract",
+			"jobtitle": "Full Stack Engineer",
+			"title": "Institut Laue-Langevin",
+			"description": "For my first permanent position, I relocated directly to Grenoble, traveling 800 kilometers from my home, to embark on a new journey as a Full Stack Engineer. Curious about why this contract was brief? Feel free to reach out to me for the story behind it !",
+			"tags":
+			[
+				{ "name": "Angular", "url": "https://fr.wikipedia.org/wiki/Angular" },
+				{ "name": "Quarkus", "url": "https://fr.wikipedia.org/wiki/Quarkus" },
+				{ "name": "Java", "url": "https://en.wikipedia.org/wiki/Java_(programming_language)" },
+				{ "name": "Javascript", "url": "https://fr.wikipedia.org/wiki/JavaScript" },
+				{ "name": "SQL", "url": "https://fr.wikipedia.org/wiki/SQL" }
+			],
+			"link": "https://www.ill.eu/fr/",
+			"video": "none",
+			"image": "resources/images/experiences/ILL.webp"
+		}
+	]
+}

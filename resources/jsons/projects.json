@@ -2,7 +2,7 @@
 	"projects":
 	[
 		{
-			"date": "2 2021",
+			"date": "March 2021",
 			"type": "School Project",
 			"title": "Sokoban",
 			"description": "A game of Sokoban, a puzzle game where you need to push boxes to the goal.",
@@ -23,7 +23,7 @@
 			"categories": ["School"]
 		}, 
 		{
-			"date": "4 2022",
+			"date": "May 2022",
 			"type": "Personal Project",
 			"title": "Maze Things", 
 			"description": "Currently, it is only a maze generator, but I intend to add additional features such as solvers.",
@@ -43,7 +43,7 @@
 			"categories": ["Web", "Personal"]
 		},
 		{
-			"date": "3 2021",
+			"date": "April 2021",
 			"type": "School Project",
 			"title": "ColorFx", 
 			"description": "This is a tool designed to assist you in selecting the optimal color for printing.",
@@ -64,7 +64,7 @@
 			"categories": ["School"]
 		},
 		{
-			"date": "11 2021",
+			"date": "December 2021",
 			"type": "School Project",
 			"title": "3D Modelisation Tool (Only for .ply)", 
 			"description": "This is a 3D modeling tool that allows you to open .ply files and view them in a visual format.",
@@ -85,7 +85,7 @@
 			"categories": ["School"]
 		},
 		{
-			"date": "1 2022",
+			"date": "February 2022",
 			"type": "Personal Project",
 			"title": "Windows's Notepad copy", 
 			"description": "This project is a replica of Windows' Notepad, with additional features. It provided me with the opportunity to explore C# and .NET.",
@@ -106,7 +106,7 @@
 			"categories": ["Personal"]
 		},
 		{
-			"date": "3 2022",
+			"date": "April 2022",
 			"type": "School Project",
 			"title": "JustSeries", 
 			"description": "This is a website that enables you to search for TV series and access their relevant information.",
@@ -127,7 +127,7 @@
 			"categories": ["School", "Web"]
 		},
 		{
-			"date": "3 2022",
+			"date": "April 2022",
 			"type": "Practical work",
 			"title": "Image Processing", 
 			"description": "This is a Python project aimed at facilitating the learning of image processing techniques.",
@@ -150,7 +150,7 @@
 			"categories": ["School"]
 		},
 		{
-			"date": "9 2021",
+			"date": "October 2021",
 			"type": "Personal Project",
 			"title": "Ch-hess",
 			"description": "It is a chess game called Ch-hess, inspired by the term \"Hess\" frequently used by young people to denote being in a state of financial difficulty.",
@@ -170,7 +170,7 @@
 			"categories": ["Personal"]
 		},
 		{
-			"date": "3 2022",
+			"date": "April 2022",
 			"type": "School Project",
 			"title": "Client SSH",
 			"description": "This is an SSH client, implemented using the Java programming language.",
@@ -190,7 +190,7 @@
 			"categories": ["School"]
 		},
 		{
-			"date": "2 2022",
+			"date": "March 2022",
 			"type": "School Project",
 			"title": "Netcast",
 			"description": "This is a web server that has been implemented using the C programming language.",
@@ -210,7 +210,7 @@
 			"categories": ["School", "Web"]
 		},
 		{
-			"date": "5 2022",
+			"date": "June 2022",
 			"type": "Personnal Project",
 			"title": "FractalDisplayer",
 			"description": "This project is a basic fractal viewer that is currently capable of displaying the Mandelbrot fractal. Its purpose is to help me learn and explore the use of shaders.",
@@ -233,7 +233,7 @@
 			"categories": ["Personnal", "Simulations"]
 		},
 		{
-			"date": "0 2023",
+			"date": "January 2023",
 			"type": "School Project",
 			"title": "3D Engine (old)",
 			"description": "This is a \"simple\" implementation of a 3D engine that I refer to as \"old\" because I plan to re-implement it in a different way.",
