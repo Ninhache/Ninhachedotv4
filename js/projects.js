@@ -169,14 +169,17 @@ function projects_events() {
 	}
 
 	function generate(data) {
-		document.querySelector("#projects_section .projects_content").innerHTML = "";
-		document.querySelector("#projects_section .other_projects_content").innerHTML = "";
+		const projectsContent = document.querySelector("#projects_section .projects_content")
+		const projectsContentMinimized = document.querySelector("#projects_section .other_projects_content");
+
+		projectsContent.innerHTML = "";
+		projectsContentMinimized.innerHTML = "";
 		let inverted = true;
 		let i = 0;
 
-		const monthNames = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-
 		if (sort_by == "Date") {
+			const monthNames = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+
 			// Month are 0 indexed
 			// https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Date
 
@@ -237,6 +240,46 @@ function projects_events() {
 		for (let _ of elements) done.push(false);
 
 		in_animation_check();
+
+		// + projectsContent;
+		const cards = document.querySelectorAll("#projects_section .projects_content .project_text .text");
+
+		// https://codepen.io/ninhache/pen/jOdRQqq
+		// const cards = Array.from(document.querySelectorAll(".card"));
+		// const overlay = document.querySelector(".overlay");
+
+		// const applyOverlayMask = (e) => {
+		// 	const overlayEl = e.currentTarget;
+		// 	const x = e.pageX - cardsContainer?.offsetLeft;
+		// 	const y = e.pageY - cardsContainer?.offsetTop;
+			
+		// 	overlayEl.style = `--opacity: 1; --x: ${x}px; --y:${y}px;`;
+		// };
+
+		// const observer = new ResizeObserver((entries) => {
+		// 	entries.forEach((entry) => {
+		// 		const cardIndex = cards?.indexOf(entry.target);
+		// 		let width = entry.borderBoxSize[0].inlineSize;
+		// 		let height = entry.borderBoxSize[0].blockSize;
+			
+		// 		if (cardIndex >= 0) {
+		// 		overlay.children[cardIndex].style.width = `${width}px`;
+		// 		overlay.children[cardIndex].style.height = `${height}px`;
+		// 		}
+		// 	});
+		// });
+
+		// const initOverlayCard = (cardEl) => {
+		// 	const overlayCard = document.createElement("div");
+		// 	overlayCard.classList.add("card");
+		// 	// createOverlayCta(overlayCard, cardEl.lastElementChild);
+		// 	// overlay.append(overlayCard);
+		// 	observer.observe(cardEl);
+		//   };
+		  
+		// cards.forEach(initOverlayCard);
+		// projectsContent.addEventListener("pointermove", applyOverlayMask);
+		  
 	}
 
 	function generate_projects() {
@@ -273,3 +316,4 @@ function projects_events() {
 			});
 		});
 }
+

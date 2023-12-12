@@ -254,6 +254,59 @@
 	color: var(--light_blue);
 }
 
+
+#projects_section {
+	--hue: 165;
+	--saturation: 82.26%;
+	--lightness: 51.37%;
+	
+	--hsl: var(--hue), var(--saturation), var(--lightness);
+}
+
+#projects_section .project_text .text {
+	--flow-space: 0.5em;
+	--hsl: var(--hue), var(--saturation), var(--lightness);
+	/* flex: 1 1 14rem; */
+	padding: 1.5em 2em;
+	display: grid;
+	
+	align-items: start;
+	gap: 1.25em;
+	color: #eceff1;
+	background-color: #2b2b2b;
+	border: 1px solid #eceff133;
+	border-radius: 15px;
+	margin-bottom: 19px;
+}
+
+#projects_section .project_text .text {
+	background-color: hsla(var(--hsl), 0.15);
+	border-color: hsla(var(--hsl), 1);
+	box-shadow: 0 0 0 1px inset hsl(var(--hsl));
+}
+
+
+.overlay {
+	position: absolute;
+	inset: 0;
+	pointer-events: none;
+	user-select: none;
+	opacity: var(--opacity, 0);
+	-webkit-mask: radial-gradient(
+	  25rem 25rem at var(--x) var(--y),
+	  #000 1%,
+	  transparent 50%
+	);
+	mask: radial-gradient(
+	  25rem 25rem at var(--x) var(--y),
+	  #000 1%,
+	  transparent 50%
+	);
+	transition: 400ms mask ease;
+	will-change: mask;
+  }
+
+/* 
 #projects_section .project_text .text {
 	background-color: var(--purple);
 	-webkit-filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.4));
@@ -278,7 +331,7 @@
 	font-size: 20px;
 	text-align: start;
 	color: var(--fade_white);
-}
+} */
 
 #projects_section .inverted .project_text .text p {
 	text-align: end;
