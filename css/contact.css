@@ -1,22 +1,18 @@
-#contact_section
-{
+#contact_section {
 	background-color: var(--white);
 }
 
-#contact_section .content.leaning
-{
+#contact_section .content.leaning {
 	margin-top: calc(calc(clamp(110px, 7vw, 130px) + 3.3vw) * 1.65);
 	margin-bottom: calc(clamp(100px, 7vw, 130px) * 2);
 }
 
-#contact_section .section_title
-{
+#contact_section .section_title {
 	color: var(--black_title);
 	margin-bottom: 70px;
 }
 
-#contact_section .contact_content
-{
+#contact_section .contact_content {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -29,10 +25,8 @@
 	gap: 20px;
 }
 
-@media screen and (max-width: 780px)
-{
-	#contact_section .contact_content
-	{
+@media screen and (max-width: 780px) {
+	#contact_section .contact_content {
 		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;
 		-ms-flex-direction: column;
@@ -40,8 +34,7 @@
 	}
 }
 
-#contact_section .social_line
-{
+#contact_section .social_line {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -54,8 +47,7 @@
 	gap: 20px;
 }
 
-#contact_section .social_link
-{
+#contact_section .social_link {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -77,18 +69,15 @@
 	transition: padding 0.5s ease-in-out;
 }
 
-#contact_section .social_link:hover
-{
+#contact_section .social_link:hover {
 	padding-right: 25px;
 }
 
-#contact_section .social_link img
-{
+#contact_section .social_link img {
 	width: 50px;
 }
 
-#contact_section .social_link .social_text
-{
+#contact_section .social_link .social_text {
 	overflow: hidden;
 	width: 0px;
 	-webkit-transition: width 0.5s ease-in-out;
@@ -96,28 +85,23 @@
 	transition: width 0.5s ease-in-out;
 }
 
-#contact_section .social_link:hover .social_text
-{
+#contact_section .social_link:hover .social_text {
 	width: var(--size);
 }
 
-#contact_section .social_link .social_text span
-{
+#contact_section .social_link .social_text span {
 	font-family: proxima_nova_semi_bold;
 	font-size: 20px;
 	color: var(--black_text);
 	white-space: nowrap;
 }
 
-@media screen and (max-width: 500px)
-{
-	#contact_section .social_link:hover
-	{
+@media screen and (max-width: 500px) {
+	#contact_section .social_link:hover {
 		padding-right: 10px;
 	}
-
-	#contact_section .social_link:hover .social_text
-	{
+	
+	#contact_section .social_link:hover .social_text {
 		width: 0px;
 	}
 }
