@@ -15,7 +15,7 @@ function skills_events() {
         categories[j].style.cursor = "pointer";
       }
 
-      categories[i].style.backgroundColor = "white";
+      categories[i].style.backgroundColor = "rgba(255, 255, 255, 1)";
       categories[i].style.cursor = "default";
 
       for (let j = 0; j < skills_lists.length; j++)

@@ -66,7 +66,6 @@ function experience_events() {
       (job.video == "none"
         ? ""
         : `
-		<div class="lds-ring"><div></div><div></div><div></div><div></div></div>
 		<video loop muted preload="metadata">
 		<source src="${job.video}" type="video/mp4"/>
 		</video>
