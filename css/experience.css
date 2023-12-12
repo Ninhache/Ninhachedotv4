@@ -1,34 +1,31 @@
-#experience_section
-{
+#experience_section {
 	background-color: var(--dark_purple);
 }
 
-.experience_end
-{
+.experience_end {
 	background-color: var(--dark_purple);
 }
 
-#experience_section .section_title
-{
+#experience_section .section_title {
 	color: var(--white);
 	margin-bottom: clamp(50px, 6vw, 80px);
 }
 
-#experience_section .job.in_animation
-{
+#experience_section .job.in_animation {
 	opacity: 0;
 	-webkit-transform: translateY(70px);
 	-ms-transform: translateY(70px);
 	transform: translateY(70px);
-	-webkit-transition: opacity 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+	-webkit-transition: opacity 0.6s ease-in-out,
+	-webkit-transform 0.6s ease-in-out;
 	transition: opacity 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
 	-o-transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
 	transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
-	transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+	transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out,
+	-webkit-transform 0.6s ease-in-out;
 }
 
-#experience_section .sort_choices
-{
+#experience_section .sort_choices {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -45,15 +42,13 @@
 	gap: 20px;
 }
 
-#experience_section .sort_choices .label
-{
+#experience_section .sort_choices .label {
 	color: var(--white);
 	font-family: raleway_semi_bold;
 	font-size: 17px;
 }
 
-#experience_section .sort_choices .choice
-{
+#experience_section .sort_choices .choice {
 	color: var(--light_blue);
 	font-family: raleway_semi_bold;
 	font-size: 15px;
@@ -66,26 +61,22 @@
 	transition: background-color 0.2s ease-in-out;
 }
 
-#experience_section .sort_choices .choice:hover
-{
+#experience_section .sort_choices .choice:hover {
 	background-color: var(--fade_light_blue);
 }
 
-#experience_section .sort_choices .choice.selected
-{
+#experience_section .sort_choices .choice.selected {
 	color: var(--dark_purple);
 	background-color: var(--light_blue);
 	cursor: default;
 	pointer-events: none;
 }
 
-#experience_section .sort_choices .choice.selected:hover
-{
+#experience_section .sort_choices .choice.selected:hover {
 	background-color: var(--light_blue);
 }
 
-#experience_section .experience_content
-{
+#experience_section .experience_content {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -103,24 +94,19 @@
 	gap: clamp(20px, 7vw, 100px);
 }
 
-@media screen and (max-width: 1125px)
-{
-	#experience_section .experience_content
-	{
+@media screen and (max-width: 1125px) {
+	#experience_section .experience_content {
 		gap: clamp(20px, 5vw, 100px);
 	}
 }
 
-@media screen and (max-width: 780px)
-{
-	#experience_section .experience_content
-	{
+@media screen and (max-width: 780px) {
+	#experience_section .experience_content {
 		gap: 35px;
 	}
 }
 
-#experience_section .job
-{
+#experience_section .job {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -134,8 +120,7 @@
 	padding-right: clamp(0px, calc(18vw - 234px), 60px);
 }
 
-#experience_section .job.inverted
-{
+#experience_section .job.inverted {
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: reverse;
 	-ms-flex-direction: row-reverse;
@@ -144,8 +129,7 @@
 	padding-right: 0px;
 }
 
-#experience_section .job_view
-{
+#experience_section .job_view {
 	z-index: 5;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -158,8 +142,7 @@
 	align-items: center;
 }
 
-#experience_section .job_view a
-{
+#experience_section .job_view a {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -181,27 +164,23 @@
 	transition: filter 0.3s ease, -webkit-filter 0.3s ease;
 }
 
-#experience_section .job_view a:hover
-{
+#experience_section .job_view a:hover {
 	-webkit-filter: drop-shadow(0px 5px 20px rgba(0, 0, 0, 0.7));
 	filter: drop-shadow(0px 5px 20px rgba(0, 0, 0, 0.7));
 }
 
-#experience_section .job_view video
-{
+#experience_section .job_view video {
 	position: absolute;
 	width: 100%;
 	height: 100%;
 }
 
-#experience_section .job_view img
-{
+#experience_section .job_view img {
 	width: 100%;
 	height: 100%;
 }
 
-#experience_section .job_text
-{
+#experience_section .job_text {
 	z-index: 10;
 	position: relative;
 	display: -webkit-box;
@@ -220,8 +199,7 @@
 	margin-right: -100px;
 }
 
-#experience_section .inverted .job_text
-{
+#experience_section .inverted .job_text {
 	-webkit-box-align: end;
 	-ms-flex-align: end;
 	align-items: flex-end;
@@ -229,8 +207,7 @@
 	margin-right: 0px;
 }
 
-#experience_section .job_text .type
-{
+#experience_section .job_text .type {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -244,20 +221,21 @@
 	color: var(--light_blue);
 	margin-left: 15px;
 	margin-bottom: 10px;
+	flex-direction: column;
 }
 
-#experience_section .inverted .job_text .type
-{
+#experience_section .inverted .job_text .type {
 	margin-left: 0px;
 	margin-right: 15px;
-	-webkit-box-orient: horizontal;
+	/* -webkit-box-orient: horizontal;
 	-webkit-box-direction: reverse;
 	-ms-flex-direction: row-reverse;
-	flex-direction: row-reverse;
+	flex-direction: row-reverse; */
+	flex-direction: column;
+	align-items: end;
 }
 
-#experience_section .job_text .job_title
-{
+#experience_section .job_text .job_title {
 	font-family: calibre_semi_bold;
 	font-size: 32px;
 	color: var(--white);
@@ -269,19 +247,16 @@
 	transition: color 0.2s ease;
 }
 
-#experience_section .inverted .job_text .job_title
-{
+#experience_section .inverted .job_text .job_title {
 	margin-left: 0px;
 	margin-right: 15px;
 }
 
-#experience_section .job_text .job_title:hover
-{
+#experience_section .job_text .job_title:hover {
 	color: var(--light_blue);
 }
 
-#experience_section .job_text .text
-{
+#experience_section .job_text .text {
 	background-color: var(--purple);
 	-webkit-filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.4));
 	filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.4));
@@ -295,27 +270,23 @@
 	transition: filter 0.3s ease, -webkit-filter 0.3s ease;
 }
 
-#experience_section .job_text .text:hover
-{
+#experience_section .job_text .text:hover {
 	-webkit-filter: drop-shadow(0px 5px 20px rgba(0, 0, 0, 0.6));
 	filter: drop-shadow(0px 5px 20px rgba(0, 0, 0, 0.6));
 }
 
-#experience_section .job_text .text p
-{
+#experience_section .job_text .text p {
 	font-family: calibre_regular;
 	font-size: 20px;
 	text-align: start;
 	color: var(--fade_white);
 }
 
-#experience_section .inverted .job_text .text p
-{
+#experience_section .inverted .job_text .text p {
 	text-align: end;
 }
 
-#experience_section .job_text .tags
-{
+#experience_section .job_text .tags {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -333,8 +304,7 @@
 	gap: 8px;
 }
 
-#experience_section .inverted .job_text .tags
-{
+#experience_section .inverted .job_text .tags {
 	-webkit-box-pack: end;
 	-ms-flex-pack: end;
 	justify-content: flex-end;
@@ -342,8 +312,7 @@
 	margin-right: 9px;
 }
 
-#experience_section .job_text .tags a
-{
+#experience_section .job_text .tags a {
 	font-family: raleway_semi_bold;
 	font-size: 16px;
 	color: var(--light_blue);
@@ -356,13 +325,11 @@
 	transition: opacity 0.2s ease;
 }
 
-#experience_section .job_text .tags a:hover
-{
+#experience_section .job_text .tags a:hover {
 	opacity: 0.5;
 }
 
-#experience_section .job_text .links
-{
+#experience_section .job_text .links {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -376,24 +343,20 @@
 	gap: 20px;
 }
 
-#experience_section .inverted .job_text .links
-{
+#experience_section .inverted .job_text .links {
 	margin-left: 0px;
 	margin-right: 15px;
 }
 
-#experience_section .job_text .links .github
-{
+#experience_section .job_text .links .github {
 	--color: rgb(181, 184, 192);
 }
 
-#experience_section .job_text .links .test
-{
+#experience_section .job_text .links .test {
 	--color: rgb(41, 168, 99);
 }
 
-#experience_section .job_text .links svg
-{
+#experience_section .job_text .links svg {
 	width: 21px;
 	fill: none;
 	stroke-width: 1.9px;
@@ -406,13 +369,11 @@
 	transition: opacity 0.2s ease;
 }
 
-#experience_section .job_text .links svg:hover
-{
+#experience_section .job_text .links svg:hover {
 	opacity: 0.6;
 }
 
-#experience_section .job_text .links a
-{
+#experience_section .job_text .links a {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -424,8 +385,7 @@
 	align-items: center;
 }
 
-#experience_section .job_text .links .bubble
-{
+#experience_section .job_text .links .bubble {
 	pointer-events: none;
 	position: absolute;
 	text-align: center;
@@ -443,8 +403,7 @@
 	transition: opacity 0.3s ease;
 }
 
-#experience_section .job_text .links .bubble::after
-{
+#experience_section .job_text .links .bubble::after {
 	pointer-events: none;
 	content: "";
 	position: absolute;
@@ -456,21 +415,18 @@
 	border-color: transparent transparent var(--color) transparent;
 }
 
-#experience_section .job_text .links a:hover .bubble
-{
+#experience_section .job_text .links a:hover .bubble {
 	opacity: 0.8;
 }
 
-.lds-ring
-{
+.lds-ring {
 	display: inline-block;
 	position: absolute;
 	width: 120px;
 	height: 120px;
 }
 
-.lds-ring div
-{
+.lds-ring div {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	display: block;
@@ -485,58 +441,47 @@
 	border-color: #fff transparent transparent transparent;
 }
 
-.lds-ring div:nth-child(1)
-{
+.lds-ring div:nth-child(1) {
 	-webkit-animation-delay: -0.45s;
 	animation-delay: -0.45s;
 }
 
-.lds-ring div:nth-child(2)
-{
+.lds-ring div:nth-child(2) {
 	-webkit-animation-delay: -0.3s;
 	animation-delay: -0.3s;
 }
 
-.lds-ring div:nth-child(3)
-{
+.lds-ring div:nth-child(3) {
 	-webkit-animation-delay: -0.15s;
 	animation-delay: -0.15s;
 }
 
-@-webkit-keyframes lds-ring
-{
-	0%
-	{
+@-webkit-keyframes lds-ring {
+	0% {
 		-webkit-transform: rotate(0deg);
 		transform: rotate(0deg);
 	}
-
-	100%
-	{
+	
+	100% {
 		-webkit-transform: rotate(360deg);
 		transform: rotate(360deg);
 	}
 }
 
-@keyframes lds-ring
-{
-	0%
-	{
+@keyframes lds-ring {
+	0% {
 		-webkit-transform: rotate(0deg);
 		transform: rotate(0deg);
 	}
-
-	100%
-	{
+	
+	100% {
 		-webkit-transform: rotate(360deg);
 		transform: rotate(360deg);
 	}
 }
 
-@media screen and (max-width: 780px)
-{
-	#experience_section .job
-	{
+@media screen and (max-width: 780px) {
+	#experience_section .job {
 		background-size: cover;
 		background-position: center;
 		border-radius: 15px;
@@ -548,15 +493,13 @@
 		transition: filter 0.3s ease;
 		transition: filter 0.3s ease, -webkit-filter 0.3s ease;
 	}
-
-	#experience_section .job:hover
-	{
+	
+	#experience_section .job:hover {
 		-webkit-filter: drop-shadow(0px 5px 20px rgba(0, 0, 0, 0.7));
 		filter: drop-shadow(0px 5px 20px rgba(0, 0, 0, 0.7));
 	}
-
-	#experience_section .job_text
-	{
+	
+	#experience_section .job_text {
 		-webkit-box-align: start;
 		-ms-flex-align: start;
 		align-items: flex-start;
@@ -566,57 +509,47 @@
 		background-color: rgba(52, 52, 102, 0.75);
 		border-radius: 15px;
 	}
-
-	@media screen and (max-width: 500px)
-	{
-		#experience_section .job_text
-		{
+	
+	@media screen and (max-width: 500px) {
+		#experience_section .job_text {
 			padding: 50px 25px 50px 25px;
 		}
 	}
-
-	#experience_section .job_text .type
-	{
+	
+	#experience_section .job_text .type {
 		margin-left: 0px;
 	}
-
-	#experience_section .job_text .job_title
-	{
+	
+	#experience_section .job_text .job_title {
 		margin-left: 0px;
 	}
-
-	#experience_section .job_text .text
-	{
+	
+	#experience_section .job_text .text {
 		background: none;
 		-webkit-filter: none;
 		filter: none;
 		border-radius: 0px;
 		padding: 10px 0px 8px 0px;
 	}
-
-	#experience_section .job_text .text:hover
-	{
+	
+	#experience_section .job_text .text:hover {
 		-webkit-filter: none;
 		filter: none;
 	}
-
-	#experience_section .job_text .text p
-	{
+	
+	#experience_section .job_text .text p {
 		color: var(--white);
 	}
-
-	#experience_section .job_text .tags
-	{
+	
+	#experience_section .job_text .tags {
 		margin-left: -6px;
 	}
-
-	#experience_section .job_text .links
-	{
+	
+	#experience_section .job_text .links {
 		margin-left: 0px;
 	}
-
-	#experience_section .job_text .links .bubble
-	{
+	
+	#experience_section .job_text .links .bubble {
 		bottom: 15px;
 	}
 }
