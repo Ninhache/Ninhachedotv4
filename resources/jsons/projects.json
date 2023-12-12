@@ -26,7 +26,7 @@
 			"date": "May 2022",
 			"type": "Personal Project",
 			"title": "Maze Things", 
-			"description": "Atm, it's \"only\" a maze generator. I want to add more features like a solvers.",
+			"description": "Currently, it is only a maze generator, but I intend to add additional features such as solvers.",
 			"tags":
 			[
 				{ "name": "JS", "url": "https://developer.mozilla.org/fr/docs/Web/JavaScript" }
@@ -46,7 +46,7 @@
 			"date": "April 2021",
 			"type": "School Project",
 			"title": "ColorFx", 
-			"description": "A tool to help you to choose the best color for printing.",
+			"description": "This is a tool designed to assist you in selecting the optimal color for printing.",
 			"tags":
 			[
 				{ "name": "Java", "url": "https://www.java.com/en/" },
@@ -67,7 +67,7 @@
 			"date": "December 2021",
 			"type": "School Project",
 			"title": "3D Modelisation Tool (Only for .ply)", 
-			"description": "A 3d modelisation tool, where you can open .ply files and visualize them.",
+			"description": "This is a 3D modeling tool that allows you to open .ply files and view them in a visual format.",
 			"tags":
 			[
 				{ "name": "Java", "url": "https://www.java.com/en/" },
@@ -88,7 +88,7 @@
 			"date": "February 2022",
 			"type": "Personal Project",
 			"title": "Windows's Notepad copy", 
-			"description": "A copy of the Windows's Notepad, with some features. This project allowed me to discover C# and .NET.",
+			"description": "This project is a replica of Windows' Notepad, with additional features. It provided me with the opportunity to explore C# and .NET.",
 			"tags":
 			[
 				{ "name": "C#", "url": "https://docs.microsoft.com/en-us/dotnet/csharp/" },
@@ -109,7 +109,7 @@
 			"date": "April 2022",
 			"type": "School Project",
 			"title": "JustSeries", 
-			"description": "A website where you can search for series and see their information.",
+			"description": "This is a website that enables you to search for TV series and access their relevant information.",
 			"tags":
 			[
 				{ "name": "JS", "url": "https://developer.mozilla.org/fr/docs/Web/JavaScript" },
@@ -130,7 +130,7 @@
 			"date": "April 2022",
 			"type": "Practical work",
 			"title": "Image Processing", 
-			"description": "Python's project to learn image processing.",
+			"description": "This is a Python project aimed at facilitating the learning of image processing techniques.",
 			"tags":
 			[
 				{ "name": "Python", "url": "https://www.python.org/" },
@@ -153,7 +153,7 @@
 			"date": "October 2021",
 			"type": "Personal Project",
 			"title": "Ch-hess",
-			"description": "A game of chess (who needs a rework), a board game where you need to push pieces to the goal.",
+			"description": "It is a chess game called Ch-hess, inspired by the term \"Hess\" frequently used by young people to denote being in a state of financial difficulty.",
 			"tags":
 			[
 				{ "name": "Java", "url": "https://fr.wikipedia.org/wiki/Java_(langage)" }
@@ -173,7 +173,7 @@
 			"date": "April 2022",
 			"type": "School Project",
 			"title": "Client SSH",
-			"description": "An SSH Client, implemented in Java language.",
+			"description": "This is an SSH client, implemented using the Java programming language.",
 			"tags":
 			[
 				{ "name": "Java", "url": "https://fr.wikipedia.org/wiki/Java_(langage)" }
@@ -193,7 +193,7 @@
 			"date": "March 2022",
 			"type": "School Project",
 			"title": "Netcast",
-			"description": "A web server implented in C language.",
+			"description": "This is a web server that has been implemented using the C programming language.",
 			"tags":
 			[
 				{ "name": "C", "url": "https://fr.wikipedia.org/wiki/C_(langage)" }
@@ -213,7 +213,7 @@
 			"date": "June 2022",
 			"type": "Personnal Project",
 			"title": "FractalDisplayer",
-			"description": "A simple fractal displayer, atm, only able to display Mandelbrot fractal. I've made this project to discover shaders and to learn how to use them.",
+			"description": "This project is a basic fractal viewer that is currently capable of displaying the Mandelbrot fractal. Its purpose is to help me learn and explore the use of shaders.",
 			"tags":
 			[
 				{ "name": "CPP", "url": "https://fr.wikipedia.org/wiki/C%2B%2B" },
